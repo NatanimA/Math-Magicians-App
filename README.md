@@ -1,15 +1,13 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Math Magicians App
 
-# Project Name
-
-> Description the project.
+> This is a project that will help you use a web based calculator and to have fun generating random quotes.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Javascript
+- React
+- Vs code
 
 ## Live Demo (if available)
 
@@ -18,39 +16,48 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-To get a local copy up and running follow these simple example steps.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### Prerequisites
+```
+Node Js
+```
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+```
+React
+```
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Natanim Abesha**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/NatanimA)
+- Twitter: [@twitterhandle](https://twitter.com/Natanim_)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/natanim-abesha-04a39823a/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -71,5 +78,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
