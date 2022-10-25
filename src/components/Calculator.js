@@ -1,4 +1,3 @@
-/* eslint-disable react/prefer-stateless-function */
 // eslint-disable-next-line
 import React, { Component } from 'react';
 
