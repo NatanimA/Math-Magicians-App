@@ -1,7 +1,8 @@
 // eslint-disable-next-line
 import React, { Component } from 'react';
-
+// eslint-disable-next-line
 export default class Calculator extends React.Component {
+// eslint-disable-next-line
   render() {
     return (
             <div className="calculator-container">
