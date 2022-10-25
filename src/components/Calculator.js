@@ -14,7 +14,7 @@ export default class Calculator extends React.Component {
                 <div className='pad seven'>7</div>
                 <div className='pad eight'>8</div>
                 <div className='pad nine'>9</div>
-                <div className='operator mult'>X</div>
+                <div className='operator mult'>&times;</div>
                 <div className='pad four'>4</div>
                 <div className='pad five'>5</div>
                 <div className='pad six'>6</div>
