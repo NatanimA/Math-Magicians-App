@@ -4,24 +4,25 @@ import React, { Component } from 'react';
 import calculate from './logic/calculate';
 
 export default class Calculator extends React.Component {
-  constructor(props){
-    super(props)
+  constructor(props) {
+    super(props);
     this.state = {
-      total:'0',
-      next:null,
-      operation:null,
-    }
+      total: '0',
+      next: null,
+      operation: null,
+    };
   }
+
   onClickHandler = (e) => {
-    let buttonName = e.target.innerText;
-    const { total, next, operation } = calculate(this.state,buttonName);
+    const buttonName = e.target.innerText;
+    const { total, next, operation } = calculate(this.state, buttonName);
     if (next === null && total === null) {
       this.setState({ next, total: '0', operation });
     } else {
       this.setState({ next, total, operation });
     }
   }
-// eslint-disable-next-line
+  // eslint-disable-next-line
   render() {
     return (
             <div className="calculator-container">
