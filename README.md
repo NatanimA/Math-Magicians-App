@@ -16,6 +16,12 @@
 
 ## Getting Started
 
+-To clone the repo use
+
+```
+git clone https://github.com/NatanimA/math-magicians-app.git
+```
+
 ### `npm start`
 
 Runs the app in the development mode.\
