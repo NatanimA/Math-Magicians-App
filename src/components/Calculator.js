@@ -1,9 +1,6 @@
 // eslint-disable-next-line
-import React, { Component } from 'react';
-// eslint-disable-next-line
-import calculate from './logic/calculate';
-// eslint-disable-next-line
-import { useState } from 'react';
+import React, { useState } from 'react';
+import calculate from './logic/calculate.js';
 
 const Calculator = () => {
   const [state, setState] = useState({
