@@ -6,12 +6,11 @@ import calculate from './logic/calculate';
 import { useState } from 'react';
 
 const Calculator = () => {
-  
-  const[state, setState] = useState({
+  const [state, setState] = useState({
     total: '0',
     next: null,
     operation: null,
-  })
+  });
 
   const onClickHandler = (e) => {
     const buttonName = e.target.innerText;
@@ -21,8 +20,8 @@ const Calculator = () => {
     } else {
       setState({ next, total, operation });
     }
-  }
-    return (
+  };
+  return (
             <div className="calculator-container">
                 <input type="text" value={state.next || state.total || '0'} className="calc-result" readOnly={true}/>
                 <div className='pad clear' onClick={onClickHandler}>AC</div>
@@ -44,8 +43,7 @@ const Calculator = () => {
                 <div className='pad zero' onClick={onClickHandler}>0</div>
                 <div className='operator equal' onClick={onClickHandler}>=</div>
             </div>
-    );
-  
-}
+  );
+};
 
 export default Calculator;
