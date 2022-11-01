@@ -1,5 +1,6 @@
 // eslint-disable-next-line
 import React, { useState } from 'react';
+// eslint-disable-next-line
 import calculate from './logic/calculate.js';
 
 const Calculator = () => {
@@ -43,7 +44,7 @@ const Calculator = () => {
           <div className='operator equal' onClick={onClickHandler}>=</div>
         </div>
       </section>
-            
+
   );
 };
 

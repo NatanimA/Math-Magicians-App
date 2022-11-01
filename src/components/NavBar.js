@@ -1,9 +1,9 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import { Router } from "react-router-dom";
+// eslint-disable-next-line
+import React from 'react';
+// eslint-disable-next-line
+import { NavLink } from 'react-router-dom';
 
-const NavBar = () => {
-    return(
+const NavBar = () => (
         <header>
             <h1>Math Magicians</h1>
             <nav>
@@ -16,7 +16,6 @@ const NavBar = () => {
                 </ul>
             </nav>
         </header>
-    )
-}
+);
 
-export default NavBar
+export default NavBar;
