@@ -1,4 +1,6 @@
+// eslint-disable-next-line
 import React from 'react';
+// eslint-disable-next-line
 import { NavLink } from 'react-router-dom';
 
 const NavBar = () => (
@@ -7,7 +9,7 @@ const NavBar = () => (
             <nav>
                 <ul>
                     <li>
-                        <NavLink to="/">Home</NavLink>  
+                        <NavLink to="/">Home</NavLink>
                     </li>
                     <li>
                         <NavLink to='/quotes'>Quotes</NavLink>
@@ -15,7 +17,7 @@ const NavBar = () => (
                     <li>
                         <NavLink to='/calculator'>Calculator</NavLink>
                     </li>
-                    
+
                 </ul>
             </nav>
         </header>
