@@ -2,6 +2,9 @@
 
 > This is a project that will help you use a web based calculator and to have fun generating random quotes.
 
+# Live Link 
+- https://dainty-treacle-081482.netlify.app/
+
 
 ## Built With
 
